@@ -8,4 +8,5 @@ test("simple api endpoint", async ({ request }) => {
 
   const responseBody = await response.json();
   expect(responseBody).toHaveProperty("text", "Hello");
+
 });
