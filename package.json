@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "test": "playwright test",
+    "part-3": "playwright test assets-metadata-css.spec.js",
+    "part-4": "playwright test pre-rendering-data-fetching.spec.js",
+    "part-5": "playwright test dynamic-routes.spec.js",
+    "part-6": "playwright test api-routes.spec.js"
+
+  },
+  "dependencies": {
+    "@playwright/test": "^1.45.3",
+    "date-fns": "^3.6.0",
+    "gray-matter": "^4.0.3",
+    "next": "^14.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
